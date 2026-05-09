@@ -85,12 +85,6 @@ Flutter, React Native, Kotlin Compose, Java/XML 기반 Android 샘플 앱 모음
 - Kotlin Compose: `BackHandler` 처리
 - Java/XML: `OnBackPressedCallback` 처리
 
-## 개발 과정
-
-Codex를 사용해 약 1시간 안에 4개 기본 동작 앱을 빠르게 구현했다.
-
-개발 후에는 코드를 간단히 검토하고 실제 실행 동작을 확인했다. 이 과정에서 네비게이션 클릭 시 종료되는 문제와 하위 depth에서 하단 탭이 남는 문제를 수정했다.
-
 ## 검증
 
 현재 기준으로 아래 검증을 통과했다.
