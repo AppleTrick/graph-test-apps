@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/home_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="화면 제목 홈"
+        android:text="홈"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/home_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="단순 선택 리스트 패턴을 확인하는 화면입니다." />
+
+    <TextView
+        android:id="@+id/selected_ringtone_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:contentDescription="현재 선택 벨소리"
+        android:text="현재 선택: 기본 벨소리"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:id="@+id/ringtone_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:contentDescription="벨소리 선택 목록"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/ringtone_default"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:contentDescription="벨소리 선택 기본 벨소리"
+            android:text="기본 벨소리" />
+
+        <RadioButton
+            android:id="@+id/ringtone_morning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="벨소리 선택 아침 알림"
+            android:text="아침 알림" />
+
+        <RadioButton
+            android:id="@+id/ringtone_classic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="벨소리 선택 클래식"
+            android:text="클래식" />
+
+        <RadioButton
+            android:id="@+id/ringtone_silent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="벨소리 선택 무음"
+            android:text="무음" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/overlay_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Surface Overlay 테스트"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/overlay_status_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:contentDescription="Overlay 상태 대기 중"
+        android:text="Overlay 상태: 대기 중" />
+
+    <Button
+        android:id="@+id/open_modal_dialog_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:contentDescription="Modal Dialog 열기"
+        android:text="Modal Dialog 열기" />
+
+    <Button
+        android:id="@+id/open_bottom_sheet_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:contentDescription="Modal BottomSheet 열기"
+        android:text="Modal BottomSheet 열기" />
+
+    <Button
+        android:id="@+id/open_popup_menu_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:contentDescription="Popup Menu 열기"
+        android:text="Popup Menu 열기" />
+</LinearLayout>

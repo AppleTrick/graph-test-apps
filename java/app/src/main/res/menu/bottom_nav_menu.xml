@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home_24"
+        android:title="홈"
+        android:contentDescription="하단 탭 홈" />
+    <item
+        android:id="@+id/nav_products"
+        android:icon="@drawable/ic_list_24"
+        android:title="상품목록"
+        android:contentDescription="하단 탭 상품목록" />
+    <item
+        android:id="@+id/nav_webview"
+        android:icon="@drawable/ic_web_24"
+        android:title="웹뷰"
+        android:contentDescription="하단 탭 웹뷰" />
+    <item
+        android:id="@+id/nav_settings"
+        android:icon="@drawable/ic_settings_24"
+        android:title="설정"
+        android:contentDescription="하단 탭 설정" />
+</menu>
