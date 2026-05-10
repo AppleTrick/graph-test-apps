@@ -40,8 +40,8 @@ Flutter, React Native, Kotlin Compose, Java/XML 기반 Android 샘플 앱 모음
 | `flutter/`      | Flutter                  | `MainActivity` / `FlutterActivity` | `flutter/lib/main.dart`               |
 | `react-native/` | React Native             | `MainActivity` / `ReactActivity`   | `react-native/App.tsx`                |
 
-구조와 요소 목록은 [TEST_APP_STRUCTURE.md](./TEST_APP_STRUCTURE.md)에 별도로 정리했다.
-Graph 평가 기준은 [GRAPH_EVALUATION.md](./GRAPH_EVALUATION.md)에 정리했다.
+구조와 요소 목록은 [docs/TEST_APP_STRUCTURE.md](./docs/TEST_APP_STRUCTURE.md)에 별도로 정리했다.
+Graph 평가 기준은 [docs/GRAPH_EVALUATION.md](./docs/GRAPH_EVALUATION.md)에 정리했다.
 
 ## 포함 요소
 
