@@ -41,6 +41,7 @@ Flutter, React Native, Kotlin Compose, Java/XML 기반 Android 샘플 앱 모음
 | `react-native/` | React Native             | `MainActivity` / `ReactActivity`   | `react-native/App.tsx`                |
 
 구조와 요소 목록은 [TEST_APP_STRUCTURE.md](./TEST_APP_STRUCTURE.md)에 별도로 정리했다.
+Graph 평가 기준은 [GRAPH_EVALUATION.md](./GRAPH_EVALUATION.md)에 정리했다.
 
 ## 포함 요소
 
@@ -103,3 +104,9 @@ Flutter, React Native, Kotlin Compose, Java/XML 기반 Android 샘플 앱 모음
 - 탐색 시간
 - 스택별 UI 탐색 차이
 - 특정 컴포넌트 유형별 탐색 문제
+
+기본 graph 평가 기준은 **13 nodes / 36 edges** 로 둔다.
+
+- Node: 도달 가능한 화면 또는 독립 surface
+- Edge: 화면 전환 또는 surface open/close 행동
+- 반복 item 개별화와 단순 상태 변경 action은 기본 graph에서 제외
